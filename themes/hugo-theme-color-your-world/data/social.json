@@ -241,5 +241,14 @@
       "id": "youtube",
       "source": "Font-Awesome"
     }
+  },
+  {
+    "entry": "itch",
+    "label": "Itch",
+    "base": "https://itch.io/profile/<username>",
+    "icon": {
+      "id": "itch",
+      "source": "Font-Awesome"
+    }
   }
 ]

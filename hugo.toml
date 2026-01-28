@@ -78,6 +78,7 @@ copyright = "Copyright © 2025, Benjamin Emag. All rights reserved."
   [params.social.centralized]
     github = [ "BenjaminEmag" ]
     linkedin = [ "benjaminemag" ]
+    itch = ["benemag"]
 
 # Disable tags taxonomy
 [taxonomies]

@@ -39,7 +39,7 @@ copyright = "Copyright © 2025, Benjamin Emag. All rights reserved."
   isDark = true
   
   # Accent colors
-  darkAccent = "#1dbc91"
+  darkAccent = "#1f676b"
   lightAccent = "#1f676b"
   
   # Color presets for the color picker

@@ -1,0 +1,8 @@
+baseURL = 'https://BenjaminEmag.github.io'
+languageCode = 'en-us'
+title = 'Benjamin Emag'
+theme="hugo-theme-color-your-world"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

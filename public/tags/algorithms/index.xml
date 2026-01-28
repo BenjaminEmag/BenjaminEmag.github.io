@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benjamin Emag | Game Developer</title>
+    <link>http://localhost:1313/tags/algorithms/</link>
+    <description>Game Developer specializing in systems, gameplay, AI, and tools programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>your.email@example.com (Benjamin Emag)</managingEditor>
+    <webMaster>your.email@example.com (Benjamin Emag)</webMaster>
+    <copyright>Copyright © 2025, Benjamin Emag. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Monte Carlo Poker Evaluator</title>
+        <link>http://localhost:1313/projects/monte-carlo-poker/</link>
+        <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+        <author>your.email@example.com (Benjamin Emag)</author>
+        <guid>http://localhost:1313/projects/monte-carlo-poker/</guid>
+        <description>SIMD-optimized poker hand evaluation running millions of simulations</description>
+      </item>
+    
+  </channel>
+</rss>

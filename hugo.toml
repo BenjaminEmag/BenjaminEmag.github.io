@@ -1,8 +1,106 @@
-baseURL = 'https://BenjaminEmag.github.io'
-languageCode = 'en-us'
-title = 'Benjamin Emag'
-theme="hugo-theme-color-your-world"
+baseURL = "https://benjaminemag.github.io/"
+languageCode = "en-us"
+title = "Benjamin Emag | Game Developer"
+theme = "hugo-theme-color-your-world"
 
+enableEmoji = true
+copyright = "Copyright © 2025, Benjamin Emag. All rights reserved."
+
+[params]
+  description = "Game Developer specializing in systems, gameplay, AI, and tools programming"
+  
+  # Author info
+  [params.author]
+    name = "Benjamin Emag"
+    email = "benjaminemag@gmail.com"
+  
+  authorDesc = "Game Developer | Systems & Gameplay Programmer"
+  
+  # Footer text
+  footerText = [
+    "Built with [Hugo](https://gohugo.io) using the [Color Your World](https://gitlab.com/rmaguiar/hugo-theme-color-your-world) theme."
+  ]
+  
+  # Cover image for Open Graph/Twitter Cards
+  # Place your cover image in assets/img/
+  cover = "img/cover.jpg"
+  coverAlt = "Benjamin Emag - Game Developer Portfolio"
+  
+  # Default path for images
+  imgPath = "img"
+  
+  # Show noscript notice
+  hasNoscriptNotice = true
+
+  showSocialInFooter = true
+
+[params.style]
+  # Dark mode as default
+  isDark = true
+  
+  # Accent colors
+  darkAccent = "#1dbc91"
+  lightAccent = "#1f676b"
+  
+  # Color presets for the color picker
+  presets = [
+    "#1dbc91",  # Teal
+    "#7fc121",  # Green
+    "#f3a530",  # Orange
+    "#3e6728",  # Forest
+    "#754e85",  # Purple
+    "#a8314a",  # Red
+    "#1f676b",  # Dark teal
+    "#ff7433",  # Bright orange
+  ]
+
+# Main menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+[params.social]
+  [params.social.centralized]
+    github = [ "BenjaminEmag" ]
+    linkedin = [ "benjaminemag" ]
+
+# Disable tags taxonomy
+[taxonomies]
+  tag = "tags"
+
+# Markdown rendering
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Image processing
+[imaging]
+  quality = 90
+  resampleFilter = "lanczos"
+
+# Build settings
+[build]
+  writeStats = true
+
+# Cache settings for GitHub Actions
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

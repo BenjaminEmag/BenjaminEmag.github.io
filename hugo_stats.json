@@ -1,0 +1,63 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "article",
+      "body",
+      "br",
+      "button",
+      "datalist",
+      "div",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "head",
+      "header",
+      "hr",
+      "html",
+      "img",
+      "input",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "noscript",
+      "option",
+      "p",
+      "script",
+      "strong",
+      "style",
+      "svg",
+      "title",
+      "ul",
+      "use"
+    ],
+    "classes": [
+      "anchor",
+      "btn",
+      "cover",
+      "filler",
+      "index",
+      "list",
+      "outline-dashed",
+      "posts",
+      "project-card",
+      "project-card-content",
+      "project-grid",
+      "project-grid-title",
+      "project-grid-wrapper",
+      "req-js",
+      "social",
+      "terms"
+    ],
+    "ids": [
+      "my-role",
+      "overview",
+      "presets",
+      "technical-details",
+      "what-i-learned"
+    ]
+  }
+}

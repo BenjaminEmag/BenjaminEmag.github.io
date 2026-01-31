@@ -25,5 +25,5 @@ I'm always open to chatting about game development, potential opportunities, or 
 ---
 
 
-Feel free to reach out—I'll get back to you as soon as I can.
+Feel free to reach out I'll get back to you as soon as I can.
 

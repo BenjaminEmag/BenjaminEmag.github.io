@@ -237,7 +237,7 @@
 
 
 
-<p>[Brief intro]
+<p>I&rsquo;m a game programmer who loves architecting new systems, optimizing existing ones, and learning new things. Currently finishing my B.S. in Game Programming at Champlain College, graduating May 2026.
 
 
   
@@ -672,41 +672,76 @@
 
   <a href="/projects/fincrementalos/" class="project-card">
     
-    <img src="/img/fincremental.jpg" alt="FincrementalOS">
+    <div class="project-card-image">
+      <img src="/img/fincremental.jpg" alt="Fincremental OS Simulator" class="project-img-static">
+      
+      <img src="/img/fincremental.gif" alt="Fincremental OS Simulator" class="project-img-gif">
+      
+    </div>
     
     <div class="project-card-content">
-      <h3>FincrementalOS</h3>
-      <p>[One line summary]</p>
+      <h3>Fincremental</h3>
+      <p>Lead programmer on an incremental OS simulator built in Unity</p>
     </div>
   </a>
 
   <a href="/projects/ping-shader/" class="project-card">
     
-    <img src="/img/ping.gif" alt="P.I.N.G - Echolocation Shader">
+    <div class="project-card-image">
+      <img src="/img/ping.jpg" alt="P.I.N.G Echolocation Shader" class="project-img-static">
+      
+      <img src="/img/ping.gif" alt="P.I.N.G Echolocation Shader" class="project-img-gif">
+      
+    </div>
     
     <div class="project-card-content">
       <h3>P.I.N.G - Echolocation Shader</h3>
-      <p>[One line summary]</p>
+      <p>Custom echolocation shader system for a first-person horror game</p>
     </div>
   </a>
 
   <a href="/projects/flight-simulator/" class="project-card">
     
-    <img src="/img/flight-sim.jpg" alt="Flight Simulator">
+    <div class="project-card-image">
+      <img src="/img/flight-sim.jpg" alt="Autonomous Flight Simulator" class="project-img-static">
+      
+      <img src="/img/flight-sim.gif" alt="Autonomous Flight Simulator" class="project-img-gif">
+      
+    </div>
     
     <div class="project-card-content">
-      <h3>Flight Simulator</h3>
-      <p>[One line summary]</p>
+      <h3>Autonomous Flight Simulator</h3>
+      <p>ML-Agents powered aircraft that learns to take off and land</p>
     </div>
   </a>
 
   <a href="/projects/monte-carlo-poker/" class="project-card">
     
-    <img src="/img/poker.jpg" alt="Monte Carlo Poker Evaluator">
+    <div class="project-card-image">
+      <img src="/img/poker.jpg" alt="Monte Carlo Poker Evaluator" class="project-img-static">
+      
+      <img src="/img/poker.gif" alt="Monte Carlo Poker Evaluator" class="project-img-gif">
+      
+    </div>
     
     <div class="project-card-content">
       <h3>Monte Carlo Poker Evaluator</h3>
-      <p>[One line summary]</p>
+      <p>SIMD-accelerated poker hand evaluator running millions of simulations</p>
+    </div>
+  </a>
+
+  <a href="/projects/moai-mayhem/" class="project-card">
+    
+    <div class="project-card-image">
+      <img src="/img/moai-mayhem.jpg" alt="Moai Mayhem" class="project-img-static">
+      
+      <img src="/img/moai-mayhem.gif" alt="Moai Mayhem" class="project-img-gif">
+      
+    </div>
+    
+    <div class="project-card-content">
+      <h3>Moai Mayhem</h3>
+      <p>Published educational adventure game on Itch.io</p>
     </div>
   </a>
 
@@ -714,12 +749,9 @@
 </div>
 
 <style>
- 
 .project-grid-title {
-   
 }
 
- 
 .project-grid-wrapper {
   width: 100vw;
   position: relative;
@@ -756,10 +788,42 @@
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 
-.project-card img {
+ 
+.project-card-image {
+  position: relative;
   width: 100%;
   height: 200px;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+ 
+.project-img-static {
+  position: relative;
+  z-index: 1;
+}
+
+ 
+.project-img-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.project-card:hover .project-img-gif {
+  opacity: 1;
+}
+
+.project-card:hover .project-img-static {
+  opacity: 0;
 }
 
 .project-card-placeholder {

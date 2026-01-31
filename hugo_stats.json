@@ -8,10 +8,13 @@
       "button",
       "datalist",
       "div",
+      "em",
       "footer",
       "h1",
       "h2",
       "h3",
+      "h4",
+      "h5",
       "head",
       "header",
       "hr",
@@ -46,18 +49,29 @@
       "posts",
       "project-card",
       "project-card-content",
+      "project-card-image",
       "project-grid",
       "project-grid-title",
       "project-grid-wrapper",
+      "project-img-gif",
+      "project-img-static",
       "req-js",
       "social",
       "terms"
     ],
     "ids": [
+      "currently",
+      "email",
+      "experience",
+      "get-in-touch",
+      "github-github",
+      "hey-im-ben",
+      "linkedin-linkedin",
       "my-role",
       "overview",
       "presets",
-      "technical-details"
+      "technical-details",
+      "what-i-do"
     ]
   }
 }

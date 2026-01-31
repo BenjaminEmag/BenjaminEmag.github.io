@@ -5,7 +5,12 @@
 {{ range $projects }}
   <a href="{{ .RelPermalink }}" class="project-card">
     {{ if .Params.cover }}
-    <img src="{{ .Params.cover }}" alt="{{ .Params.coverAlt | default .Title }}">
+    <div class="project-card-image">
+      <img src="{{ .Params.cover }}" alt="{{ .Params.coverAlt | default .Title }}" class="project-img-static">
+      {{ if .Params.coverGif }}
+      <img src="{{ .Params.coverGif }}" alt="{{ .Params.coverAlt | default .Title }}" class="project-img-gif">
+      {{ end }}
+    </div>
     {{ else }}
     <div class="project-card-placeholder"></div>
     {{ end }}
@@ -19,12 +24,9 @@
 </div>
 
 <style>
-/* Title stays in content flow, not in breakout wrapper */
 .project-grid-title {
-  /* No special positioning - inherits content container */
 }
 
-/* Break out of theme's narrow container */
 .project-grid-wrapper {
   width: 100vw;
   position: relative;
@@ -61,10 +63,42 @@
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
 
-.project-card img {
+/* Image container for hover effect */
+.project-card-image {
+  position: relative;
   width: 100%;
   height: 200px;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+/* Static image visible by default */
+.project-img-static {
+  position: relative;
+  z-index: 1;
+}
+
+/* GIF hidden by default, shown on hover */
+.project-img-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.project-card:hover .project-img-gif {
+  opacity: 1;
+}
+
+.project-card:hover .project-img-static {
+  opacity: 0;
 }
 
 .project-card-placeholder {

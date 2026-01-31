@@ -10,12 +10,12 @@
     <webMaster>benjaminemag@gmail.com (Benjamin Emag)</webMaster>
     <copyright>Copyright © 2025, Benjamin Emag. All rights reserved.</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
       <item>
-        <title>FincrementalOS</title>
+        <title>Fincremental</title>
         <link>http://localhost:1313/projects/fincrementalos/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>benjaminemag@gmail.com (Benjamin Emag)</author>
         <guid>http://localhost:1313/projects/fincrementalos/</guid>
-        <description>[One line summary]</description>
+        <description>Lead programmer on an incremental OS simulator built in Unity</description>
       </item>
     
       <item>
@@ -24,16 +24,16 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>benjaminemag@gmail.com (Benjamin Emag)</author>
         <guid>http://localhost:1313/projects/ping-shader/</guid>
-        <description>[One line summary]</description>
+        <description>Custom echolocation shader system for a first-person horror game</description>
       </item>
     
       <item>
-        <title>Flight Simulator</title>
+        <title>Autonomous Flight Simulator</title>
         <link>http://localhost:1313/projects/flight-simulator/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>benjaminemag@gmail.com (Benjamin Emag)</author>
         <guid>http://localhost:1313/projects/flight-simulator/</guid>
-        <description>[One line summary]</description>
+        <description>ML-Agents powered aircraft that learns to take off and land</description>
       </item>
     
       <item>
@@ -42,7 +42,110 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>benjaminemag@gmail.com (Benjamin Emag)</author>
         <guid>http://localhost:1313/projects/monte-carlo-poker/</guid>
-        <description>[One line summary]</description>
+        <description>SIMD-accelerated poker hand evaluator running millions of simulations</description>
+      </item>
+    
+      <item>
+        <title>Moai Mayhem</title>
+        <link>http://localhost:1313/projects/moai-mayhem/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>benjaminemag@gmail.com (Benjamin Emag)</author>
+        <guid>http://localhost:1313/projects/moai-mayhem/</guid>
+        <description>Published educational adventure game on Itch.io</description>
+      </item>
+    
+      <item>
+        <title></title>
+        <link>http://localhost:1313/contact/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>benjaminemag@gmail.com (Benjamin Emag)</author>
+        <guid>http://localhost:1313/contact/</guid>
+        <description>&lt;h1 id=&#34;get-in-touch&#34;&gt;Get In Touch&lt;/h1&gt; 
+
+&lt;p&gt;I&amp;rsquo;m always open to chatting about game development, potential opportunities, or interesting projects.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  &lt;h5 id=&#34;email&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#email&#34; title=&#39;Anchor for: Email: benjaminemag@gmail.com.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Email: &lt;a href=&#34;mailto:benjaminemag@gmail.com&#34;&gt;benjaminemag@gmail.com&lt;/a&gt;&lt;/h5&gt; 
+
+
+
+
+
+
+
+
+
+
+  &lt;h5 id=&#34;linkedin-linkedin&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linkedin-linkedin&#34; title=&#39;Anchor for: LinkedIn: LinkedIn.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; LinkedIn: &lt;a href=&#34;https://linkedin.com/in/benjaminemag&#34;&gt;LinkedIn&lt;/a&gt;&lt;/h5&gt; 
+
+
+
+
+
+
+
+
+
+
+  &lt;h5 id=&#34;github-github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-github&#34; title=&#39;Anchor for: GitHub: Github.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; GitHub: &lt;a href=&#34;https://github.com/BenjaminEmag&#34;&gt;Github&lt;/a&gt;&lt;/h5&gt; 
+
+&lt;hr&gt;
+&lt;p&gt;Feel free to reach out—I&amp;rsquo;ll get back to you as soon as I can.&lt;/p&gt;</description>
+      </item>
+    
+      <item>
+        <title></title>
+        <link>http://localhost:1313/resume/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>benjaminemag@gmail.com (Benjamin Emag)</author>
+        <guid>http://localhost:1313/resume/</guid>
+        <description>&lt;div style=&#34;display: flex; justify-content: center; width: 100vw; margin-left: calc(-50vw + 50%); position: relative;&#34;&gt;
+  &lt;iframe src=&#34;http://localhost:1313/files/resume.pdf&#34; style=&#34;width: 95%; max-width: 1200px; height: 90vh; border: none;&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+      </item>
+    
+      <item>
+        <title>About</title>
+        <link>http://localhost:1313/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>benjaminemag@gmail.com (Benjamin Emag)</author>
+        <guid>http://localhost:1313/about/</guid>
+        <description>&lt;div style=&#34;display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/img/headshot.jpg&#34; alt=&#34;Benjamin Emag&#34; style=&#34;width: 200px; border-radius: 8px;&#34;&gt;
+&lt;div&gt;
+
+
+
+
+
+
+
+
+
+  &lt;h2 id=&#34;hey-im-ben&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hey-im-ben&#34; title=&#39;Anchor for: Hey, I&amp;rsquo;m Ben.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Hey, I&amp;rsquo;m Ben&lt;/h2&gt; 
+
+&lt;p&gt;I&amp;rsquo;m a systems focused game programmer currently finishing my B.S. in Game Programming at Champlain College (graduating May 2026). Who loves architecting new systems, optimizing existing ones, and learning new things&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+  &lt;h2 id=&#34;what-i-do&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#what-i-do&#34; title=&#39;Anchor for: What I Do.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; What I Do&lt;/h2&gt; 
+
+&lt;p&gt;I specialize in gameplay systems, performance optimization, and building the foundational systems that make everyone&amp;rsquo;s jobs easier. I&amp;rsquo;ve worked on everything from incremental OS simulators to flight sims with ML powered autopilots to echolocation shaders for horror games.&lt;/p&gt;</description>
       </item>
     
   </channel>

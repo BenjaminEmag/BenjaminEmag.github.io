@@ -117,35 +117,18 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>benjaminemag@gmail.com (Benjamin Emag)</author>
         <guid>http://localhost:1313/about/</guid>
-        <description>&lt;div style=&#34;display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/img/headshot.jpg&#34; alt=&#34;Benjamin Emag&#34; style=&#34;width: 200px; border-radius: 8px;&#34;&gt;
-&lt;div&gt;
-
-
-
-
-
-
-
-
-
-  &lt;h2 id=&#34;hey-im-ben&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#hey-im-ben&#34; title=&#39;Anchor for: Hey, I&amp;rsquo;m Ben.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; Hey, I&amp;rsquo;m Ben&lt;/h2&gt; 
-
-&lt;p&gt;I&amp;rsquo;m a systems focused game programmer currently finishing my B.S. in Game Programming at Champlain College (graduating May 2026). Who loves architecting new systems, optimizing existing ones, and learning new things&lt;/p&gt;
+        <description>&lt;!-- ─── Section 1: Intro ─────────────────────────── --&gt;
+&lt;div class=&#34;about-intro&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/headshot.jpg&#34; alt=&#34;Benjamin Emag&#34; class=&#34;about-headshot&#34;&gt;
+  &lt;div class=&#34;about-intro-text&#34;&gt;
+    &lt;h2&gt;Hey, I&#39;m Ben&lt;/h2&gt;
+    &lt;p&gt;I&#39;m a systems-focused game programmer finishing my B.S. in Game Programming at Champlain College (graduating May 2026). I love architecting new systems, optimizing existing ones, and learning new things.&lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-
-
-
-
-
-  &lt;h2 id=&#34;what-i-do&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#what-i-do&#34; title=&#39;Anchor for: What I Do.&#39;&gt;&lt;svg aria-hidden=&#34;true&#34;&gt;&lt;use xlink:href=&#34;http://localhost:1313/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag&#34;/&gt;&lt;/svg&gt;&lt;/a&gt; What I Do&lt;/h2&gt; 
-
-&lt;p&gt;I specialize in gameplay systems, performance optimization, and building the foundational systems that make everyone&amp;rsquo;s jobs easier. I&amp;rsquo;ve worked on everything from incremental OS simulators to flight sims with ML powered autopilots to echolocation shaders for horror games.&lt;/p&gt;</description>
+&lt;!-- ─── Section 2: What I Do ─────────────────────── --&gt;
+&lt;div class=&#34;about-section&#34;&gt;
+  &lt;h2&gt;What I Do&lt;/h2&gt;
+  &lt;p&gt;I specialize in gameplay systems, performance optimization, and building the foundational systems that make everyone&#39;s jobs easier. I&#39;ve worked on everything from incremental OS simulators to flight sims with ML-powered autopilots to echolocation shaders for horror games.&lt;/p&gt;</description>
       </item>
     
   </channel>

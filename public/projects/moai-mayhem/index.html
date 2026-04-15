@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.160.1">
 <meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
 
 
@@ -175,6 +175,10 @@
       <ul>
         
           <li>
+            <a class="btn" href="/">Home</a>
+          </li>
+        
+          <li>
             <a class="btn" href="/about/">About</a>
           </li>
         
@@ -184,6 +188,10 @@
         
           <li>
             <a class="btn" href="/contact/">Contact</a>
+          </li>
+        
+          <li>
+            <a class="btn" href="/projects/">Projects</a>
           </li>
         
       </ul>
@@ -196,59 +204,60 @@
     <div class="filler">
       
 
-  <main>
-    <article data-pagefind-body>
-      <header>
-        
-        <h1>Moai Mayhem</h1>
+<main class="project-detail-page">
 
-        
-        
-        
-          
+  <nav class="project-breadcrumb">
+    <a href="/" class="breadcrumb-link">Home</a>
+    <span class="breadcrumb-sep">/</span>
+    <a href="/projects/" class="breadcrumb-link">Projects</a>
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">Moai Mayhem</span>
+  </nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  <article>
 
     
     
+    <div class="project-hero">
+      
+      <div class="project-hero-media" title="Hover to animate">
+        <img src="/img/moai-mayhem.jpg"
+             alt="Moai Mayhem"
+             class="hero-img hero-static">
+        <img src="/img/moai-mayhem.gif"
+             alt="Moai Mayhem"
+             class="hero-img hero-gif"
+             loading="lazy">
+        <div class="hero-animate-hint">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          Hover to animate
+        </div>
+      </div>
+      
+    </div>
     
+
+    
+    <header class="project-detail-header">
+      <h1>Moai Mayhem</h1>
+      
+      <p class="project-summary-lead">Published educational adventure game on Itch.io</p>
       
       
-        <img
-          class="cover"
-          src="/img/moai-mayhem.jpg"
-          alt="Moai Mayhem"
-        >
-      
-    
-
-  
-  
-
-
+      <div class="project-tech-stack">
         
+        <span class="tech-chip">Unity</span>
         
-      </header>
-    
+        <span class="tech-chip">C#</span>
+        
+      </div>
       
+    </header>
+
+    
+    <div class="project-detail-content">
       
 
 
@@ -333,9 +342,243 @@
 <strong>Play it:</strong> <a href="https://bentonlane.itch.io/moai-mayhem">Itch.io</a></p>
 
 
+    </div>
 
-    </article>
-  </main>
+    
+    
+
+    
+    <div class="project-back-link">
+      <a href="/projects/" class="back-btn">← Back to Projects</a>
+    </div>
+
+  </article>
+</main>
+
+<style>
+ 
+.project-detail-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+ 
+.project-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  margin-bottom: 1.75rem;
+  opacity: 0.7;
+  flex-wrap: wrap;
+}
+
+.breadcrumb-link {
+  color: var(--accent, #1f676b);
+  text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-sep {
+  opacity: 0.5;
+}
+
+.breadcrumb-current {
+  font-weight: 600;
+  opacity: 1;
+}
+
+ 
+.project-hero {
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 2.25rem;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+}
+
+.project-hero-media {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.35s ease;
+}
+
+.hero-gif {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.project-hero-media:hover .hero-gif {
+  opacity: 1;
+}
+
+.project-hero-media:hover .hero-static {
+  opacity: 0;
+}
+
+.hero-static-only {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-animate-hint {
+  position: absolute;
+  bottom: 0.85rem;
+  right: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: rgba(0,0,0,0.62);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+  z-index: 5;
+}
+
+.project-hero-media:hover .hero-animate-hint {
+  opacity: 0;
+}
+
+ 
+.project-detail-header {
+  margin-bottom: 2rem;
+}
+
+.project-detail-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.project-summary-lead {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+  opacity: 0.75;
+  line-height: 1.55;
+}
+
+.project-tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.tech-chip {
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.65rem;
+  border-radius: 5px;
+  background: rgba(128,128,128,0.1);
+  border: 1px solid rgba(128,128,128,0.2);
+  color: var(--accent, #1f676b);
+}
+
+ 
+.project-detail-content {
+  max-width: 720px;
+  line-height: 1.75;
+}
+
+.project-detail-content h2 {
+  margin-top: 2rem;
+}
+
+.project-detail-content hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid rgba(128,128,128,0.2);
+}
+
+ 
+.project-gallery {
+  margin-top: 3rem;
+}
+
+.gallery-heading {
+  margin-bottom: 1rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item {
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #111;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.04);
+}
+
+ 
+.project-back-link {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(128,128,128,0.2);
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 0.55rem 1.25rem;
+  border: 2px solid var(--accent, #1f676b);
+  border-radius: 6px;
+  color: var(--accent, #1f676b);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.back-btn:hover {
+  background: var(--accent, #1f676b);
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .project-detail-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
 
     </div>

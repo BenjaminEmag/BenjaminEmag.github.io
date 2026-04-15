@@ -6,6 +6,7 @@ cover: "/img/moai-mayhem.jpg"
 coverGif: "/img/moai-mayhem.gif"
 coverAlt: "Moai Mayhem"
 weight: 5
+tech: ["Unity", "C#"]
 ---
 
 ## Overview

@@ -6,6 +6,7 @@ cover: "/img/ping.jpg"
 coverGif: "/img/ping.gif"
 coverAlt: "P.I.N.G Echolocation Shader"
 weight: 2
+tech: ["Unreal Engine 5", "HLSL"]
 ---
 
 ## Overview

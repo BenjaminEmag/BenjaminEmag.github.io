@@ -140,7 +140,7 @@
 {{- $sameAs := slice -}}
 
 {{- if .Site.Params.Social -}}
-  {{- range .Site.Data.social -}}
+  {{- range hugo.Data.social -}}
 
     {{- $currentEntry  := .entry -}}
     {{- $currentBase   := .base -}}

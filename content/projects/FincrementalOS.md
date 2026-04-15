@@ -6,6 +6,7 @@ cover: "/img/fincremental.jpg"
 coverGif: "/img/fincremental.gif"
 coverAlt: "Fincremental OS Simulator"
 weight: 1
+tech: ["Unity", "C#"]
 ---
 
 ## Overview

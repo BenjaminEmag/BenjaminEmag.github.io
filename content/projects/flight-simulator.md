@@ -6,6 +6,7 @@ cover: "/img/flight-sim.jpg"
 coverGif: "/img/flight-sim.gif"
 coverAlt: "Autonomous Flight Simulator"
 weight: 3
+tech: ["Unity", "C#", "ML-Agents"]
 ---
 
 ## Overview

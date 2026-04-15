@@ -6,6 +6,7 @@ cover: "/img/poker.jpg"
 coverGif: "/img/poker.gif"
 coverAlt: "Monte Carlo Poker Evaluator"
 weight: 4
+tech: ["C++", "SSE/AVX SIMD"]
 ---
 
 ## Overview

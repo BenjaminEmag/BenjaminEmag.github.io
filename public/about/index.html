@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.160.1">
 <meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
 
 
@@ -149,6 +149,10 @@
       <ul>
         
           <li>
+            <a class="btn" href="/">Home</a>
+          </li>
+        
+          <li>
             <a class="btn" href="/about/">About</a>
           </li>
         
@@ -158,6 +162,10 @@
         
           <li>
             <a class="btn" href="/contact/">Contact</a>
+          </li>
+        
+          <li>
+            <a class="btn" href="/projects/">Projects</a>
           </li>
         
       </ul>
@@ -236,59 +244,131 @@
 
 
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start;">
-<img src="/img/headshot.jpg" alt="Benjamin Emag" style="width: 200px; border-radius: 8px;">
-<div>
-
-
-
-
-
-
-
-
-
-  <h2 id="hey-im-ben"><a class="anchor" href="#hey-im-ben" title='Anchor for: Hey, I&rsquo;m Ben.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag"/></svg></a> Hey, I&rsquo;m Ben</h2> 
-
-<p>I&rsquo;m a systems focused game programmer currently finishing my B.S. in Game Programming at Champlain College (graduating May 2026). Who loves architecting new systems, optimizing existing ones, and learning new things</p>
+<!-- ─── Section 1: Intro ─────────────────────────── -->
+<div class="about-intro">
+  <img src="/img/headshot.jpg" alt="Benjamin Emag" class="about-headshot">
+  <div class="about-intro-text">
+    <h2>Hey, I'm Ben</h2>
+    <p>I'm a systems-focused game programmer finishing my B.S. in Game Programming at Champlain College (graduating May 2026). I love architecting new systems, optimizing existing ones, and learning new things.</p>
+  </div>
 </div>
+<!-- ─── Section 2: What I Do ─────────────────────── -->
+<div class="about-section">
+  <h2>What I Do</h2>
+  <p>I specialize in gameplay systems, performance optimization, and building the foundational systems that make everyone's jobs easier. I've worked on everything from incremental OS simulators to flight sims with ML-powered autopilots to echolocation shaders for horror games.</p>
 </div>
+<!-- ─── Section 3: Background ─────────────────────── -->
+<div class="about-section">
+  <h2>Background</h2>
+  <div class="about-cards">
+    <div class="about-card">
+      <h3>Experience</h3>
+      <p>I interned at the Leahy Center for Digital Forensics &amp; Cybersecurity, building .NET tools for government clients. It gave me a solid foundation in software engineering practices that I carry into every project.</p>
+    </div>
+    <div class="about-card">
+      <h3>Currently</h3>
+      <p>Leading development on <strong>FincrementalOS</strong> an incremental game where you manage a simulated OS to shoot fish and become as rich as possible.</p>
+    </div>
+  </div>
+</div>
+<style>
+/* ── Section 1: Intro ── */
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(128,128,128,0.18);
+  margin-bottom: 2.5rem;
+}
 
+.about-headshot {
+  width: 180px;
+  border-radius: 12px;
+  flex-shrink: 0;
+  display: block;
+}
 
+.about-intro-text h2 {
+  margin-top: 0;
+  font-size: 1.6rem;
+}
 
+.about-intro-text p {
+  margin: 0;
+  opacity: 0.85;
+  line-height: 1.7;
+}
 
+/* ── Section 2 & 3: generic ── */
+.about-section {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid rgba(128,128,128,0.18);
+  margin-bottom: 2.5rem;
+}
 
+.about-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
+.about-section h2 {
+  margin-top: 0;
+}
 
+.about-section > p {
+  opacity: 0.85;
+  line-height: 1.7;
+  max-width: 680px;
+}
 
+/* ── Section 3: two-card row ── */
+.about-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
 
-  <h2 id="what-i-do"><a class="anchor" href="#what-i-do" title='Anchor for: What I Do.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag"/></svg></a> What I Do</h2> 
+.about-card {
+  background: var(--alt-bg, #1a1a1a);
+  border: 1px solid rgba(128,128,128,0.15);
+  border-radius: 10px;
+  padding: 1.25rem 1.4rem;
+}
 
-<p>I specialize in gameplay systems, performance optimization, and building the foundational systems that make everyone&rsquo;s jobs easier. I&rsquo;ve worked on everything from incremental OS simulators to flight sims with ML powered autopilots to echolocation shaders for horror games.</p>
+.about-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--accent, #1f676b);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+}
 
+.about-card p {
+  margin: 0;
+  opacity: 0.82;
+  font-size: 0.93rem;
+  line-height: 1.65;
+}
 
+/* ── Mobile ── */
+@media (max-width: 580px) {
+  .about-intro {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
 
+  .about-headshot {
+    width: 130px;
+  }
 
-
-
-
-
-
-  <h2 id="experience"><a class="anchor" href="#experience" title='Anchor for: Experience.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag"/></svg></a> Experience</h2> 
-
-<p>I interned at the Leahy Center for Digital Forensics &amp; Cybersecurity, building .NET tools for government clients. It gave me a solid foundation in software engineering practices that I bring to every project.</p>
-
-
-
-
-
-
-
-
-
-  <h2 id="currently"><a class="anchor" href="#currently" title='Anchor for: Currently.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.962dc886f613705f438fd5eef469472c.svg#hashtag"/></svg></a> Currently</h2> 
-
-<p>Right now I&rsquo;m leading development on <strong>FincrementalOS</strong>, an incremental game where you manage a simulated OS to shoot as fish and become as rich as possible</p>
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
 
 

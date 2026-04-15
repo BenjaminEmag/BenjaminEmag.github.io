@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.160.1">
 <meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
 
 
@@ -147,6 +147,10 @@
       <ul>
         
           <li>
+            <a class="btn" href="/">Home</a>
+          </li>
+        
+          <li>
             <a class="btn" href="/about/">About</a>
           </li>
         
@@ -156,6 +160,10 @@
         
           <li>
             <a class="btn" href="/contact/">Contact</a>
+          </li>
+        
+          <li>
+            <a class="btn" href="/projects/">Projects</a>
           </li>
         
       </ul>
@@ -666,17 +674,24 @@
 </p>
 <hr>
 
-<h2 class="project-grid-title">Projects</h2>
+
+
+
+
+  
+
+
 <div class="project-grid-wrapper">
 <div class="project-grid">
 
   <a href="/projects/fincrementalos/" class="project-card">
     
     <div class="project-card-image">
-      <img src="/img/fincremental.jpg" alt="Fincremental OS Simulator" class="project-img-static">
+      <img src="/img/fincremental.jpg" alt="Fincremental OS Simulator" class="project-img-static" loading="lazy">
       
-      <img src="/img/fincremental.gif" alt="Fincremental OS Simulator" class="project-img-gif">
+      <img src="/img/fincremental.gif" alt="Fincremental OS Simulator" class="project-img-gif" loading="lazy">
       
+      <div class="project-card-hover-hint">View Project →</div>
     </div>
     
     <div class="project-card-content">
@@ -688,10 +703,11 @@
   <a href="/projects/ping-shader/" class="project-card">
     
     <div class="project-card-image">
-      <img src="/img/ping.jpg" alt="P.I.N.G Echolocation Shader" class="project-img-static">
+      <img src="/img/ping.jpg" alt="P.I.N.G Echolocation Shader" class="project-img-static" loading="lazy">
       
-      <img src="/img/ping.gif" alt="P.I.N.G Echolocation Shader" class="project-img-gif">
+      <img src="/img/ping.gif" alt="P.I.N.G Echolocation Shader" class="project-img-gif" loading="lazy">
       
+      <div class="project-card-hover-hint">View Project →</div>
     </div>
     
     <div class="project-card-content">
@@ -703,10 +719,11 @@
   <a href="/projects/flight-simulator/" class="project-card">
     
     <div class="project-card-image">
-      <img src="/img/flight-sim.jpg" alt="Autonomous Flight Simulator" class="project-img-static">
+      <img src="/img/flight-sim.jpg" alt="Autonomous Flight Simulator" class="project-img-static" loading="lazy">
       
-      <img src="/img/flight-sim.gif" alt="Autonomous Flight Simulator" class="project-img-gif">
+      <img src="/img/flight-sim.gif" alt="Autonomous Flight Simulator" class="project-img-gif" loading="lazy">
       
+      <div class="project-card-hover-hint">View Project →</div>
     </div>
     
     <div class="project-card-content">
@@ -715,49 +732,21 @@
     </div>
   </a>
 
-  <a href="/projects/monte-carlo-poker/" class="project-card">
-    
-    <div class="project-card-image">
-      <img src="/img/poker.jpg" alt="Monte Carlo Poker Evaluator" class="project-img-static">
-      
-      <img src="/img/poker.gif" alt="Monte Carlo Poker Evaluator" class="project-img-gif">
-      
-    </div>
-    
-    <div class="project-card-content">
-      <h3>Monte Carlo Poker Evaluator</h3>
-      <p>SIMD-accelerated poker hand evaluator running millions of simulations</p>
-    </div>
-  </a>
-
-  <a href="/projects/moai-mayhem/" class="project-card">
-    
-    <div class="project-card-image">
-      <img src="/img/moai-mayhem.jpg" alt="Moai Mayhem" class="project-img-static">
-      
-      <img src="/img/moai-mayhem.gif" alt="Moai Mayhem" class="project-img-gif">
-      
-    </div>
-    
-    <div class="project-card-content">
-      <h3>Moai Mayhem</h3>
-      <p>Published educational adventure game on Itch.io</p>
-    </div>
-  </a>
-
 </div>
+
+<div class="view-all-projects">
+  <a href="/projects/" class="view-all-btn">View All Projects →</a>
+</div>
+
 </div>
 
 <style>
-.project-grid-title {
-}
-
 .project-grid-wrapper {
   width: 100vw;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   box-sizing: border-box;
 }
 
@@ -766,33 +755,33 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
   max-width: 1300px;
 }
 
 .project-card {
   display: block;
-  width: 500px;
-  flex: 0 0 400px;
-  border-radius: 8px;
+  flex: 0 0 380px;
+  max-width: 420px;
+  border-radius: 10px;
   overflow: hidden;
-  background: var(--bg-secondary, #1a1a1a);
+  background: var(--alt-bg, #1a1a1a);
   text-decoration: none;
   color: inherit;
-  transition: transform 0.2s, box-shadow 0.2s;
-  border: 1px solid var(--border-color, #333);
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  border: 1px solid rgba(128,128,128,0.15);
 }
 
 .project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+  color: inherit;
 }
 
- 
 .project-card-image {
   position: relative;
   width: 100%;
-  height: 200px;
+  height: 210px;
   overflow: hidden;
 }
 
@@ -803,13 +792,11 @@
   transition: opacity 0.3s ease;
 }
 
- 
 .project-img-static {
   position: relative;
   z-index: 1;
 }
 
- 
 .project-img-gif {
   position: absolute;
   top: 0;
@@ -826,28 +813,80 @@
   opacity: 0;
 }
 
+.project-card-hover-hint {
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.75rem;
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.project-card:hover .project-card-hover-hint {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .project-card-placeholder {
   width: 100%;
-  height: 200px;
+  height: 210px;
   background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
 }
 
 .project-card-content {
-  padding: 1rem 1.25rem;
+  padding: 1.1rem 1.25rem 1.25rem;
 }
 
 .project-card h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.25rem;
+  margin: 0 0 0.45rem 0;
+  font-size: 1.15rem;
 }
 
 .project-card p {
   margin: 0;
-  opacity: 0.8;
-  font-size: 0.9rem;
-  line-height: 1.4;
+  opacity: 0.75;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.view-all-projects {
+  text-align: center;
+  margin: 2rem auto 1rem;
+}
+
+.view-all-btn {
+  display: inline-block;
+  padding: 0.65rem 1.75rem;
+  border: 2px solid var(--accent, #1f676b);
+  border-radius: 6px;
+  color: var(--accent, #1f676b);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.view-all-btn:hover {
+  background: var(--accent, #1f676b);
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .project-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 </style>
+
 
 
         

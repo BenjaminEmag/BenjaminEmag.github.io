@@ -7,5 +7,5 @@ I'm a game programmer who loves architecting new systems, optimizing existing on
 
 
 ---
-{{< project-cards >}}
+{{< project-cards limit="3" >}}
 

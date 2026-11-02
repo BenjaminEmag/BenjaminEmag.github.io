@@ -8,7 +8,7 @@ description: ""
   <img src="/img/headshot.jpg" alt="Benjamin Emag" class="about-headshot">
   <div class="about-intro-text">
     <h2>Hey, I'm Ben</h2>
-    <p>I'm a systems-focused game programmer finishing my B.S. in Game Programming at Champlain College (graduating May 2026). I love architecting new systems, optimizing existing ones, and learning new things.</p>
+    <p>I'm a software engineer with a game programming background. I graduated from Champlain College in May 2026 with a B.S. in Game Programming and a minor in Computer Science. I love architecting new systems, optimizing existing ones, and learning new things.</p>
   </div>
 </div>
 
@@ -28,7 +28,7 @@ description: ""
     </div>
     <div class="about-card">
       <h3>Currently</h3>
-      <p>Leading development on <strong>FincrementalOS</strong> an incremental game where you manage a simulated OS to shoot fish and become as rich as possible.</p>
+      <p>Looking for software engineering and IT roles in the Burlington, VT area. Most recently I worked on <strong>FincrementalOS</strong>, my capstone: an incremental game where you manage a simulated OS to shoot fish and become as rich as possible.</p>
     </div>
   </div>
 </div>

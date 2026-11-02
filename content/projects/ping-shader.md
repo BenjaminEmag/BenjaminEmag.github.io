@@ -11,7 +11,7 @@ tech: ["Unreal Engine 5", "HLSL"]
 
 ## Overview
 
-P.I.N.G is a first-person horror game built in Unreal Engine 5 where players navigate environments using echolocation. As lead programmer on a team of 12, I developed the custom shader system that brings this unique mechanic to life.
+P.I.N.G is a first-person horror game built in Unreal Engine 5 where players navigate environments using echolocation. As a programmer on a team of 12, I developed the custom shader system that brings this unique mechanic to life.
 
 ## My Role
 
